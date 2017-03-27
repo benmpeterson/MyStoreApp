@@ -1,30 +1,55 @@
 body {
     width: 1000px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(25, 65, 92, 0.89);
     /*background-image: url('./img/808.gif');*/
 }
 
 
 #search{
     float:right;
-    margin: 18px 0 0 9px;
+    margin: 18px 0 0 3px;
     padding: 0 0 0 0;
 }
 
+#button-placement{
+    margin: 0 0 0 0;
+}
+
 .twitter-logo{
+    margin: 7px 0 0 0;
     width: 20px;
     height: 20px;
     float:right;
+    border-radius:5px;
+    
 }
 
 .facebook-logo {
-    margin: 20px 0 0 0;
+    margin: 26px 0 0 0;
     width: 20px;
     height: 20px;
     float: right;
+    border-radius: 5px;
+}
+
+.instagram-logo{
+    margin: 7px -20px 0 0;
+    width: 20px;
+    height: 20px;
+    float: right;
+    border-radius: 5px;
+}
+
+.tumblr-logo{
+    margin: 27px -40px 0 0;
+    width: 20px;
+    height: 20px;
+    float: right;
+    border-radius: 5px;
 }
 
 #main-header{
@@ -40,7 +65,7 @@ body {
 }
 
 #header-text {
-    padding: 9px 0 0 0;
+    padding: -112px 61px 0 0;
     font-size: 36px;
     color: #0399f4;
     text-shadow: 2px 2px #ff0000;
@@ -61,5 +86,96 @@ body {
     width: 500px;
     height: 300px;
     float: left;
+}
+
+#welcome {
+    background-color: white;
+    background-image: url('./img/banner2.jpg');
+    /*background-size: 100% 100%;*/
+    margin: -202px -14px 18px 0px;
+    padding: 181px 0 0 72px;
+    float: left;
+    border-radius: 10px;
+}
+
+#header-text1 {
+    color: black;
+    text-align: center;
+    font-weight:200;
+    font-size: 120px;
+    font-style: oblique;
+    margin: -186px 61px 0 0;
+}
+
+
+.products {
+    width: 25%;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+
+.product-article {
+    height: 350px;
+    width: 1000px;
+    border-width: 2px;
+    border-style:groove;
+    border-color: black;
+    background-color:white;
+    margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+}
+
+.product-name {
+    text-align: center;
+    margin: 0 0 0 170px;
+}
+
+.add-to-cart {
+    /*text-align: center;*/
+    margin: 0 0 0 158px;
+}
+
+.add-to-cart1 {
+    /*text-align: center;*/
+    margin: 0 0 0 124px;
+}
+
+.add-to-cart2 {
+    /*text-align: center;*/
+    margin: 0 0 0 150px;
+}
+
+#price {    
+    padding: 0px 0 0 200px;
+}
+
+.nineonine-thumbnail {
+    width: 400px;
+    height: 223px;
+}
+
+.heard-on {
+    float: right;
+    margin: -348px 232px 0 0;
+}
+
+.nineoninevideo {
+    float: right;
+    margin: -330px 43px 0px 0px;
+}
+
+.products2 {
+    clear:both;
+    width: 25%;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+
+.products3 {
+    clear: both;
+    width: 25%;
+    float: left;
+    margin: 0px 0px 20px 0px;
 }
 

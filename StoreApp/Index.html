@@ -10,7 +10,8 @@
         ul {
             list-style-type: none;
             margin: 0;
-            padding: 0;
+            padding: 5px;
+            border-radius: 3px;
             overflow: hidden;
             background-color: slategray;
         }
@@ -43,12 +44,24 @@
             <img class="logo" src="img/midi-icon.jpg"/>
         </div>
 
-        <div id="twitter-logo">
-            <img class="twitter-logo" img src="img/twitterbutton.jpg"/>
-        </div>
+        <div id="button-placement">
 
-        <div>
-            <img class="facebook-logo" img src="img/facebook.jpg"/>
+            <div id="twitter-logo">
+                <a href="http://www.twitter.com"> <img class="twitter-logo" img src="img/twitterbutton.jpg" />  </a>
+            </div>
+
+            <div>
+                <a href="http://www.facebook.com"> <img class="facebook-logo" img src="img/facebook.jpg" /> </a>
+            </div>
+
+            <div id="instagram-logo">
+                <a href="http://www.instagram.com"> <img class="instagram-logo" img src="img/Instagram.jpg" /> </a>
+            </div>
+
+            <div id="tumblr-logo">
+                <a href="http://www.tumblr.com"> <img class="tumblr-logo" img src="img/tumblr.jpg" /> </a>
+            </div>
+
         </div>
 
         <!--search-->
@@ -77,12 +90,77 @@
     </section>
 
     <!--Welcome-->
-    <!--<section id="welcome">
-        <header>Welcome to the store</header>
-        <p>Drum Machine Future Fantasy is the place where all the best
-        drum mahcines are still in production and sold for unbeatable 
-        prices!</p>
-    </section>-->
+    <section id="welcome">
+        
+        <!--<header>Welcome to the store</header>-->
+        <p id="header-text1">TIME MACHINE!</p>
+    </section>
+
+    <!--Products-->
+    <section class="products">
+        <article class="product-article">
+            <figure>
+                <img class="nineonine-thumbnail" src="img/tr909banner.jpg"/>
+            </figure>
+            <header>
+                <span class="product-name">Roland TR-909</span>
+            </header>
+            <p id="price">&#36;1195</p>
+            <div class="add-to-cart2">
+                MIDI In/Out Included!
+            </div>
+            <div class="heard-on">
+                As heard on                
+            </div>
+            <div class="nineoninevideo">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/UeiH9Mm0E5Y" frameborder="0" allowfullscreen></iframe>
+            </div>
+       </article>
+                 
+    </section>
+
+    <section class="products2">
+        <article class="product-article">
+            <figure>
+                <img class="nineonine-thumbnail" src="img/tr808.jpg" />
+            </figure>
+            <header>
+                <span class="product-name">Roland TR-808</span>
+            </header>
+            <p id="price">&#36;1195</p>
+            <div class="add-to-cart1">
+                The best kick ever designed!
+            </div>
+            <div class="heard-on">
+                As heard on
+            </div>
+            <div class="nineoninevideo">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/hh1AypBaIEk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </article>
+        </section>
+
+        <section class="products3">
+            <article class="product-article">
+                <figure>
+                    <img class="nineonine-thumbnail" src="img/linndrum_panel.jpg" />
+                </figure>
+                <header>
+                    <span class="product-name">LinnDrum LM-1</span>
+                </header>
+                <p id="price">&#36;3995</p>
+                <div class="add-to-cart">
+                    Order custom pads!
+                </div>
+                <div class="heard-on">
+                    As heard on
+                </div>
+                <div class="nineoninevideo">
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/sOnqjkJTMaA" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </article>
+
+        </section>
 
 </body>
 </html>
